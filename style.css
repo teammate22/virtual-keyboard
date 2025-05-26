@@ -50,12 +50,12 @@ textarea {
 }
 
 .space-key {
-  grid-column: span 9;
+  grid-column: span 10;
   justify-content: center;
 }
 
 .backspace-key, .lang-key{
-  grid-column: span 2;
+  grid-column: span 3;
 }
 
 @keyframes typeEffect {
@@ -82,7 +82,7 @@ textarea {
 
 @media (max-width: 635.5px) {
   .space-key {
-  grid-column: span 6;
+  grid-column: span 8;
   justify-content: center;
 }
 
@@ -93,7 +93,7 @@ textarea {
 
 @media (max-width: 591px) {
   .space-key {
-  grid-column: span 5;
+  grid-column: span 6;
   justify-content: center;
 }
 
@@ -115,7 +115,7 @@ textarea {
 
 @media (max-width: 501px) {
   .space-key {
-  grid-column: span 8;
+  grid-column: span 7;
   justify-content: center;
 }
 
@@ -126,7 +126,7 @@ textarea {
 
 @media (max-width: 456px) {
   .space-key {
-  grid-column: span 4;
+  grid-column: span 2;
   justify-content: center;
 }
 
@@ -137,16 +137,27 @@ textarea {
 
 @media (max-width: 411px) {
   .space-key {
-  grid-column: span 5;
+  grid-column: span 4;
   justify-content: center;
 }
 
 .backspace-key, .lang-key{
-  grid-column: span 2;
+  grid-column: span 1;
 }
 }
 
 @media (max-width: 366px) {
+  .space-key {
+  grid-column: span 4;
+  justify-content: center;
+}
+
+.backspace-key, .lang-key{
+  grid-column: span 1;
+}
+}
+
+@media (max-width: 321px) {
   .space-key {
   grid-column: span 2;
   justify-content: center;
@@ -164,13 +175,13 @@ textarea {
 }
 
 .backspace-key, .lang-key{
-  grid-column: span 2;
+  grid-column: span 1;
 }
 }
 
 @media (max-width: 231px) {
   .space-key {
-  grid-column: span 2;
+  grid-column: span 1;
   justify-content: center;
 }
 
