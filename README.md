@@ -4,7 +4,7 @@
 
 1. Скачайте или склонируйте репозиторий с GitHub:
    ```bash
-   git clone https://github.com/ВАШ-НИК/virtual-keyboard.git
+   git clone https://github.com/teammate22/virtual-keyboard.git
    ```
 
 2. Откройте файл `index.html` в любом браузере — проект сразу готов к использованию.
